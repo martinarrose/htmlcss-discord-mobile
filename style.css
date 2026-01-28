@@ -26,10 +26,12 @@ main {
 }
 #banner {
   max-width: 100%;
+  margin-bottom: 50px;
 }
-.jubotron {
+.jumbotron {
   color: var(--dis-light);
   text-align: center;
+  background-color: transparent;
 }
 
 .btn {
@@ -47,10 +49,13 @@ main {
 
 .btn-light {
   background-color: var(--dis-light);
+  font-family: "DM Sans", sans-serif;
+  margin-top: 20px;
 }
 .btn-primary {
   background-color: var(--dis-primary);
   color: var(--dis-light);
+  margin-bottom: 50px;
 }
 
 .text-white {
@@ -59,9 +64,26 @@ main {
 #video-uno {
   max-width: 100%;
   border-radius: 10%;
+  margin-top: 15px;
 }
 .card {
   background-color: var(--dif-card);
   border-radius: 10%;
-  padding: 50px 35px;
+  padding: 50px 60px;
+  border-radius: 15%;
+  padding: 50px 60px;
+  margin: 30px;
+}
+.title {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: "Sigmar", sans-serif;
+  line-height: 1;
+  margin-bottom: 15px;
+}
+#streamer {
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 10px;
 }
