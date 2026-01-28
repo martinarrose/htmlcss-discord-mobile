@@ -10,6 +10,7 @@
   --dis-page-bg: #191d7b;
   --dis-primary: #5865f2;
   --dis-light: #ffffff;
+  --dif-card: #5d64d1;
 }
 
 body {
@@ -17,10 +18,14 @@ body {
   margin: 0 auto;
   background-color: var(--dis-page-bg);
   font-family: "DM sans", sans-serif;
+  color: var(--dis-light);
 }
 
 main {
   padding: 0 2rem;
+}
+#banner {
+  max-width: 100%;
 }
 .jubotron {
   color: var(--dis-light);
@@ -46,4 +51,17 @@ main {
 .btn-primary {
   background-color: var(--dis-primary);
   color: var(--dis-light);
+}
+
+.text-white {
+  color: var(--dis-light);
+}
+#video-uno {
+  max-width: 100%;
+  border-radius: 10%;
+}
+.card {
+  background-color: var(--dif-card);
+  border-radius: 10%;
+  padding: 50px 35px;
 }
