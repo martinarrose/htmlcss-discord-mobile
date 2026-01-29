@@ -21,9 +21,6 @@ body {
   color: var(--dis-light);
 }
 
-main {
-  padding: 0 2rem;
-}
 #banner {
   max-width: 100%;
   margin-bottom: 20px;
