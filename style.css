@@ -26,7 +26,7 @@ main {
 }
 #banner {
   max-width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 .jumbotron {
   color: var(--dis-light);
@@ -55,7 +55,7 @@ main {
 .btn-primary {
   background-color: var(--dis-primary);
   color: var(--dis-light);
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .text-white {
@@ -68,11 +68,10 @@ main {
 }
 .card {
   background-color: var(--dif-card);
-  border-radius: 10%;
+  border-radius: 30px;
   padding: 50px 60px;
-  border-radius: 15%;
-  padding: 50px 60px;
-  margin: 30px;
+  margin: 50px;
+  position: relative;
 }
 .title {
   font-size: 2em;
@@ -86,4 +85,20 @@ main {
   width: 100%;
   border-radius: 15px;
   margin-top: 10px;
+}
+#logo-uno {
+  width: 100px;
+  position: absolute;
+  top: -50px;
+}
+#eyes-discord {
+  width: 100px;
+  position: absolute;
+  top: -50px;
+}
+.card-transparent {
+  background-color: transparent;
+  padding: 10px;
+  margin: 50px;
+  position: relative;
 }
