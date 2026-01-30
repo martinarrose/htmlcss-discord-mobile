@@ -64,7 +64,9 @@ body {
   margin-top: 15px;
 }
 .card {
-  background-color: var(--dif-card);
+  background-image: url("assets/img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 30px;
   padding: 50px 60px;
   margin: 50px;
@@ -92,6 +94,7 @@ body {
   width: 100px;
   position: absolute;
   top: -50px;
+  /*transorm: translateX()*/
 }
 .card-transparent {
   background-color: transparent;
